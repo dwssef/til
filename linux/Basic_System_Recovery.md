@@ -31,6 +31,7 @@
 
 # other
 按照问题的严重性和复杂度划分的话(my opinion)
+
 Emergency Mode > Rescue Mode > Single-user Mode
 
 # Reference
