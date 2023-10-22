@@ -18,6 +18,13 @@ sudo make altinstall
 [pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
 
 ```shell
+# ubuntu 22.04
+sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+```
+
+```shell
 # centos7.9
 # https://github.com/pyenv/pyenv/issues/2416#issuecomment-1491244200
 
@@ -76,7 +83,7 @@ pyenv deactivate
 pyenv uninstall env-name  
 ```
 
-# hiw
+# how
 利用环境变量来指定当前python环境
 ```shell
 $ export | grep pyenv
